@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <iostream>
+using namespace std;
+
+int main(){
+
+    for (int i = 1; i <= 100; i++) {
+        if (i % 3 == 0) {
+            printf("%d e' multiplo di 3\n", i);
+        }
+    }
+
+    system("pause");
+}
